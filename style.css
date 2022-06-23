@@ -1,0 +1,130 @@
+/***** Import Outfit font in our CSS ******/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/***** Reset browser styles ******/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***** Set font whole of all the page elements ******/
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+/***** Main background ******/
+.main__container {
+  background: #0d192c;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/***** White background QR box ******/
+.qr__container {
+  width: 350px;
+  height: 596px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+}
+
+/***** QR image styles ******/
+.qr__image img {
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+/***** Text styles ******/
+.qr__text h3 {
+  width: 302px;
+  height: 28px;
+  margin: 24px 24px 16px 24px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: left;
+  color: #fff;
+}
+.qr__text p {
+  width: 302px;
+  height: 52px;
+  margin: 16px 24px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  letter-spacing: 0.1875px;
+  color: #8bacd9;
+}
+/***** Etherium and date card ******/
+.card {
+  width: 302px;
+  display: flex;
+  justify-content: space-between;
+}
+/***** Position flex more then one element ******/
+.eth,
+.date,
+.info__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/***** Image Size ******/
+.info__card img {
+  width: 33px;
+  height: 33px;
+}
+/***** Eth and date texts ******/
+.eth__text {
+  color: #00fff8;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.date__text {
+  color: #8bacd9;
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+/***** Horizontan line ******/
+.line {
+  width: 302px;
+  height: 1px;
+  background: #2e405a;
+  margin: 24px 0 22px 0;
+}
+.info__card {
+  width: 302px;
+  justify-content: flex-start;
+}
+/***** Info card styles: image, text, and span with white background ******/
+.info__card img {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+.info__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 16px;
+  color: #8bacd9;
+}
+.info__text span {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
