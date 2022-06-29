@@ -54,6 +54,10 @@ body {
   text-align: left;
   color: #fff;
 }
+.qr__text h3:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
 .qr__text p {
   width: 302px;
   height: 52px;
@@ -127,4 +131,41 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+}
+.info__text span:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+@media (max-width: 420px) {
+  .qr__container {
+    width: 327px;
+    height: 543px;
+  }
+  .qr__image img {
+    width: 278px;
+    height: 278px;
+  }
+  .qr__text h3,
+  .qr__text p {
+    width: 278px;
+    margin: 24px;
+  }
+  .qr__text h3 {
+    margin: 24px 24px 12px 24px;
+  }
+  .qr__text p {
+    margin: 0 24px 16px 24px;
+  }
+  .line {
+    margin: 16px 0;
+  }
+  .card,
+  .info__card,
+  .line {
+    width: 278px;
+  }
+  .info__card img {
+    width: 33px;
+    height: 33px;
+  }
 }
